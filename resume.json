@@ -1,0 +1,177 @@
+{
+  "basics": {
+    "name": "Pedro Barbosa Costa Neves",
+    "label": "",
+    "picture": "https://avatars2.githubusercontent.com/u/1276067?v=3&s=460",
+    "email": "costa.neves@me.com",
+    "phone": "+5511 97466 1440",
+    "website": "http://github.com/persocon",
+    "summary": "Web developer since 2006, I'm into clean code and responsive designs. I'm a fast learner, curious. A passion? Photography. Analog photography.   My latest job I was working as a frontend developer for R7. R7 is a large Brazilian content web site. This project is developing a software platform to attend the present and future needs of the company, by automating several processes that are now manual and offering base abstractions to enable e new kinds of media and interactive services.  The project called for a highly distribute architecture, relying on a refined caching infrastructure and seizing the benefit of asynchronous processing whenever possible. It is developed in Ruby on Rails, Javascript also playing important roles.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "São Paulo",
+      "countryCode": "BR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "persocon",
+        "url": "http://github.com/persocon"
+      },
+      {
+        "network": "Linkedin",
+        "username": "persocon",
+        "url": "https://br.linkedin.com/in/persocon"
+      },
+      {
+        "network": "Skype",
+        "username": "neoatpersocon",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "R7",
+      "position": "Front-end Developer",
+      "website": "http://r7.com",
+      "startDate": "2013-09-01",
+      "endDate": "2015-03-01",
+      "summary": "",
+      "highlights": [
+        "R7 Mobile Website",
+        "R7 Content Management System"
+      ]
+    },
+    {
+      "company": "GameHouse",
+      "position": "Fron-end Developer",
+      "website": "http://gamehouse.com",
+      "startDate": "2013-01-01",
+      "endDate": "2013-08-01",
+      "summary": "",
+      "highlights": [
+        "Project RACOON"
+      ]
+    },
+    {
+      "company": "Coworkers",
+      "position": "Fullstack Developer",
+      "website": "",
+      "startDate": "2012-05-01",
+      "endDate": "2013-08-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Projetual Comunicação",
+      "position": "Fullstack Developer",
+      "website": "http://projetual.com.br",
+      "startDate": "2010-06-01",
+      "endDate": "2011-04-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Neux Comunicação",
+      "position": "Fullstack Developer",
+      "website": "http://neux.com.br/",
+      "startDate": "2006-08-01",
+      "endDate": "2007-01-01",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "EEPSG Professor Flaminio Lessa",
+      "area": "",
+      "studyType": "Highschool",
+      "startDate": "2001",
+      "endDate": "2004",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "HTML 5",
+        "HTML API"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "pure css",
+        "sass",
+        "scss"
+      ]
+    },
+    {
+      "name": "Javascript",
+      "level": "Advanced",
+      "keywords": [
+        "Vanilla Javascript",
+        "ES6",
+        "ES 2015",
+        "JSON"
+      ]
+    },
+    {
+      "name": "WordPress",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Ruby",
+      "level": "Intermediate",
+      "keywords": [
+        "Ruby on Rails",
+        "PadrinoRB",
+        "Sinatra"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Photography",
+      "keywords": [
+        "Analog Photography",
+        "Film"
+      ]
+    },
+    {
+      "name": "Outdoor Life",
+      "keywords": [
+        "Nature",
+        "Forest"
+      ]
+    }
+  ],
+  "references": []
+}
