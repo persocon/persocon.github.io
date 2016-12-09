@@ -1,0 +1,23 @@
+{
+  "name": "persocon.github.io",
+  "version": "0.0.1",
+  "description": "My resume",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/persocon/persocon.github.io.git"
+  },
+  "author": "Pedro Costa Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/persocon/persocon.github.io/issues"
+  },
+  "homepage": "https://github.com/persocon/persocon.github.io#readme"
+}

@@ -90,8 +90,8 @@
       "institution": "EEPSG Professor Flaminio Lessa",
       "area": "",
       "studyType": "Highschool",
-      "startDate": "2001",
-      "endDate": "2004",
+      "startDate": "2001-01-01",
+      "endDate": "2004-12-01",
       "gpa": "",
       "courses": []
     }
