@@ -4,11 +4,12 @@
   "description": "My resume",
   "main": "index.js",
   "dependencies": {
+    "resume-cli": "",
     "jsonresume-theme-stackoverflow": "^1.0.4"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export": "npm install & node_modules/resume-cli/index.js export index.html --theme stackoverflow"
   },
   "repository": {
     "type": "git",
