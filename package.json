@@ -1,15 +1,15 @@
 {
   "name": "persocon.github.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My resume",
   "main": "index.js",
   "dependencies": {
-    "resume-cli": "",
-    "jsonresume-theme-stackoverflow": "^1.0.4"
+    "jsonresume-theme-stackoverflow": "^1.0.4",
+    "resume-cli": "0.4.19"
   },
   "devDependencies": {},
   "scripts": {
-    "export": "npm install & node_modules/resume-cli/index.js export index.html --theme stackoverflow"
+    "export": "npm install & resume export index.html --theme stackoverflow"
   },
   "repository": {
     "type": "git",

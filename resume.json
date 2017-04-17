@@ -46,7 +46,7 @@
       ]
     },
     {
-      "company": "GameHouse",
+      "company": "RealNetworks INC / GameHouse",
       "position": "Fron-end Developer",
       "website": "http://gamehouse.com",
       "startDate": "2013-01-01",
@@ -82,6 +82,18 @@
       "endDate": "2007-01-01",
       "summary": "",
       "highlights": []
+    },
+    {
+      "company": "Freelancer",
+      "position": "Fullstack Developer",
+      "website": "http://github.com/persocon",
+      "startDate": "2006-01-01",
+      "summary": "Fullstack developer",
+      "highlights": [
+        "MangoCorp projects",
+        "C-Heads Magazine projects",
+        "Cursillo.at website"
+      ]
     }
   ],
   "volunteer": [],
@@ -100,6 +112,19 @@
   "publications": [],
   "skills": [
     {
+      "name": "Javascript",
+      "level": "Master",
+      "keywords": [
+        "Vanilla Javascript",
+        "ES6",
+        "ES 2015",
+        "JSON",
+        "ReactJS",
+        "Redux",
+        "Redux-Saga"
+      ]
+    },
+    {
       "name": "HTML",
       "level": "Master",
       "keywords": [
@@ -115,16 +140,6 @@
         "pure css",
         "sass",
         "scss"
-      ]
-    },
-    {
-      "name": "Javascript",
-      "level": "Advanced",
-      "keywords": [
-        "Vanilla Javascript",
-        "ES6",
-        "ES 2015",
-        "JSON"
       ]
     },
     {
