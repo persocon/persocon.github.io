@@ -34,6 +34,18 @@
   },
   "work": [
     {
+      "company": "i2x GmbH",
+      "position": "Software Developer",
+      "website": "http://i2x.ai",
+      "startDate": "2017-15-05",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Desktop App",
+        "Dashboard Website"
+      ]
+    },
+    {
       "company": "R7",
       "position": "Front-end Developer",
       "website": "http://r7.com",
@@ -88,6 +100,7 @@
       "position": "Fullstack Developer",
       "website": "http://github.com/persocon",
       "startDate": "2006-01-01",
+      "endDate": "",
       "summary": "Fullstack developer",
       "highlights": [
         "MangoCorp projects",
