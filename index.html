@@ -1,29 +1,97 @@
 <!doctype html>
 <html>
-
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-		<title>Pedro Barbosa Costa Neves</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-		<style>
-			/********************************************
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Pedro Barbosa Costa Neves</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+  /********************************************
 * 	reset from
 * 	http://meyerweb.com/eric/tools/css/reset/
 *******************************************/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -31,8 +99,17 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -40,16 +117,20 @@ body {
     line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: none;
 }
 
@@ -58,10 +139,13 @@ table {
     border-spacing: 0;
 }
 
+
 /****************
 *	COMMONS
 ****************/
-body, html {
+
+body,
+html {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 13px;
     color: #40484f;
@@ -69,7 +153,7 @@ body, html {
     letter-spacing: 0;
     line-height: 1.46153846;
     text-align: left;
-    webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 p {
@@ -97,6 +181,10 @@ li {
     margin-left: 1.3em;
 }
 
+.highlights>li>p {
+    margin-bottom: 0.5em;
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -121,13 +209,17 @@ strong {
     font-weight: 700;
 }
 
+
 /* main container */
+
 #resume {
     padding: 1rem;
     margin-top: 2rem;
 }
 
+
 /* every section wrapper */
+
 .section {
     margin-bottom: 1rem;
 }
@@ -146,8 +238,8 @@ section .location {
     padding: 0;
 }
 
-#header > #profiles,
-#header > #contact,
+#header>#profiles,
+#header>#contact,
 #skills,
 #languages,
 #interests {
@@ -162,11 +254,11 @@ section .location {
     justify-content: flex-start;
 }
 
-#header > div {
+#header>div {
     line-height: 1.5;
 }
 
-#header > div > div {
+#header>div>div {
     margin-right: 1.2em;
 }
 
@@ -209,7 +301,7 @@ h2.section-title {
     font-size: .9rem;
 }
 
-.section > header {
+.section>header {
     position: relative;
 }
 
@@ -217,7 +309,7 @@ h2.section-title {
     margin-right: 0.25em;
 }
 
-.section > header::after {
+.section>header::after {
     position: absolute;
     left: 0;
     top: .7em;
@@ -229,21 +321,21 @@ h2.section-title {
     display: block;
 }
 
-.section.main-summary > section {
+.section.main-summary>section {
     margin: 0;
 }
 
-.section > section > header {
+.section>section>header {
     font-size: 1.38rem;
     position: relative;
     margin-top: .7em;
 }
 
-.section > section > header:first-of-type {
+.section>section>header:first-of-type {
     margin: 0;
 }
 
-.section > section > header .space-left {
+.section>section>header .space-left {
     position: absolute;
     left: -1.56rem;
     top: 5px;
@@ -261,7 +353,7 @@ h2.section-title {
 .studyType,
 .title,
 .awarder {
-    display: inline-block;
+    display: inline;
 }
 
 .position,
@@ -290,7 +382,7 @@ h2.section-title {
 
 .section header .date {
     font-size: 1rem;
-    display: block;
+    display: inline-table;
     padding: .1em 0;
     font-weight: 600;
 }
@@ -331,7 +423,9 @@ ul.courses li:hover {
     font-size: 1.1em;
 }
 
+
 /* Social Media Brand Colors */
+
 .google-plus {
     color: #dd4b39;
 }
@@ -399,7 +493,11 @@ ul.courses li:hover {
     content: '\f16c';
     color: #f68a1f;
     overflow: hidden;
-    height: 40%;
+    height: 100%;
+}
+
+.telegram {
+    color: #2291c3;
 }
 
 #languages .item,
@@ -418,7 +516,9 @@ ul.courses li:hover {
     width: 15em;
 }
 
+
 /* Skill chart */
+
 .level {
     margin-bottom: .5em;
 }
@@ -467,6 +567,10 @@ ul.courses li:hover {
     border-left: 5px solid #ff6d1f;
 }
 
+.toggle-item {
+  visibility: hidden;
+}
+
 /******************
 *	HELPER CLASSES
 ******************/
@@ -486,9 +590,11 @@ ul.courses li:hover {
     margin-bottom: .5rem;
 }
 
+
 /****************
 *		TABLET
 ****************/
+
 @media screen and (min-width: 602px) {
     #resume {
         width: 80%;
@@ -496,61 +602,78 @@ ul.courses li:hover {
     }
 }
 
+
 /****************
 *		LAPTOP
 ****************/
+
 @media screen and (min-width: 1025px) {
     li {
         margin-left: 1.5em;
     }
-
     #resume {
         width: 820px;
-        margin: 2rem auto;
-        opacity: 0;
-        -webkit-transition: opacity .5s ease-in-out;
-        transition: opacity .5s ease-in-out;
+        margin: 2rem auto;      
     }
-
-    .section > section > header .space-left {
+    .section>section>header .space-left {
         opacity: 1;
         cursor: pointer;
     }
-
-    .section > section {
+    .section>section {
         margin-left: 1.67rem;
     }
-
+    .toggle-item {
+        transform: translate(-9999px);
+    }
+    .toggle-item+label {
+        display: block;
+        margin-top: -16px;
+    }
+    .toggle-item:checked+label:after {
+        content: '\f0d7';
+    }
+    .toggle-item+label:after {
+        float: left;
+        cursor: pointer;
+        margin-left: -20px;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+    .toggle-item~.item {
+        height: 0;
+        opacity: 0;
+    }
+    .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
     .company::before,
     .institution::before,
     .organization::before,
     .awarder::before {
         content: "| ";
     }
-
     .header-left {
         float: left;
         width: 70%;
         word-break: normal;
     }
-
     .section header .date {
         float: right;
         padding: .2em;
     }
-
     .display {
         display: none;
     }
-
     .display:not(.none) {
         display: block;
     }
-
 }
 
 @media print {
-
     #resume {
         margin: 0;
         padding: 0;
@@ -559,54 +682,44 @@ ul.courses li:hover {
         line-height: 1.3;
         /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
     }
-
     @page {
         margin: 1cm 1.4cm;
     }
-
     .item-count {
         display: none;
     }
-
     .company::before,
     .institution::before,
     .organization::before,
     .awarder::before {
         content: "at ";
     }
-
     .main-summary {
         padding: 2rem 0;
     }
-
     .section {
         margin: .8rem 0;
         padding: 0;
     }
-
     .section header {
         padding-bottom: .15rem;
     }
-
     .section .location {
         padding-bottom: .15rem;
     }
     .stack-overflow::after {
         content: "";
     }
-
     .fa.social {
         color: #828386;
     }
-
     ul {
         margin-top: .4em;
     }
-
-    ul, li {
+    ul,
+    li {
         padding: 0;
     }
-
     ul.keywords li,
     ul.courses li {
         margin: 0;
@@ -614,537 +727,439 @@ ul.courses li:hover {
         font-size: .8rem;
         text-transform: lowercase;
     }
-
     ul.keywords li::after,
     ul.courses li::after {
         padding: 0 0 0 .1rem;
         content: " |";
     }
-
     ul.keywords::before,
     ul.courses::before {
         font-size: .8rem;
         font-weight: 600;
     }
-
     ul.keywords::before {
         content: "Skills acquired: ";
     }
-
     #skills .keywords::before {
         content: '';
     }
-
     .section p {
         margin: 0;
         padding: 0;
     }
-
     ul.courses::before {
         content: "Major courses: ";
     }
-
     ul.keywords li:last-of-type::after,
     ul.courses li:last-of-type::after {
         content: "";
     }
-
     .level em {
         font-style: normal;
         padding: .1em 0;
     }
-
     .level .bar {
         display: none;
     }
-
     #profiles .item {
         padding: 0;
     }
-
     .item.display {
         display: block;
         opacity: 1 !important;
     }
 }
 
-		</style>
-	</head>
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="picture" src="https://avatars2.githubusercontent.com/u/1276067?v&#x3D;3&amp;s&#x3D;460" alt="Pedro Barbosa Costa Neves" />
+    		<div class="middle">
+    			<h1 class="name">Pedro Barbosa Costa Neves</h1>
+    			<h2 class="label"></h2>
+    		</div>
+    		
+    		<span class="location">
+    			<span class="city">São Paulo,</span> 
+    			<span class="countryCode">BR</span> 
+    		</span>
+    		
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fa fa-external-link"></span>
+    				<a target="_blank" target="_blank" href="http://github.com/persocon">http://github.com/persocon</a>
+    			</div>
+    			<div class="email">
+    				<span class="fa fa-envelope-o"></span>
+    				<a href="mailto:costa.neves@me.com">costa.neves@me.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa fa-mobile"></span>
+    				<a href="tel:+5511 97466 1440">+5511 97466 1440</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="http://github.com/persocon">persocon</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://br.linkedin.com/in/persocon">persocon</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-skype skype social"></span>
+    					<span>neoatpersocon</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section main-summary">
+    		<section>
+    			<div><p>Web developer since 2006, I'm into clean code and responsive designs. I'm a fast learner, curious. A passion? Photography. Analog photography.<br />My latest job I was working as a frontend developer for R7. R7 is a large Brazilian content web site. This project is developing a software platform to attend the present and future needs of the company, by automating several processes that are now manual and offering base abstractions to enable e new kinds of media and interactive services.<br />The project called for a highly distribute architecture, relying on a refined caching infrastructure and seizing the benefit of asynchronous processing whenever possible. It is developed in Ruby on Rails, Javascript also playing important roles.</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section margin1">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Javascript
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Vanilla Javascript</li>
+    				<li>ES6</li>
+    				<li>ES 2015</li>
+    				<li>JSON</li>
+    				<li>ReactJS</li>
+    				<li>Redux</li>
+    				<li>Redux-Saga</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				HTML
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>HTML</li>
+    				<li>HTML 5</li>
+    				<li>HTML API</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				CSS
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>pure css</li>
+    				<li>sass</li>
+    				<li>scss</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				WordPress
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Ruby
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Ruby on Rails</li>
+    				<li>PadrinoRB</li>
+    				<li>Sinatra</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				PHP
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(7)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Software Developer</div>
+    				<div class="company">i2x GmbH</div>
+    				<div class="date">
+    				  <span class="startDate">May 2017</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://i2x.ai">http://i2x.ai</a>
+        	</span>      	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>Desktop App</p></li>
+                <li><p>Dashboard Website</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Front-end Developer</div>
+    				<div class="company">R7</div>
+    				<div class="date">
+    				  <span class="startDate">September 2013</span> 
+    					<span class="endDate">- March 2015</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://r7.com">http://r7.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>R7 Mobile Website</p></li>
+                <li><p>R7 Content Management System</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Fron-end Developer</div>
+    				<div class="company">RealNetworks INC / GameHouse</div>
+    				<div class="date">
+    				  <span class="startDate">January 2013</span> 
+    					<span class="endDate">- August 2013</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://gamehouse.com">http://gamehouse.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>Project RACOON</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Fullstack Developer</div>
+    				<div class="company">Coworkers</div>
+    				<div class="date">
+    				  <span class="startDate">May 2012</span> 
+    					<span class="endDate">- August 2013</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Fullstack Developer</div>
+    				<div class="company">Projetual Comunicação</div>
+    				<div class="date">
+    				  <span class="startDate">June 2010</span> 
+    					<span class="endDate">- April 2011</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://projetual.com.br">http://projetual.com.br</a>
+        	</span>      	<div class="item" id="work-item">
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Fullstack Developer</div>
+    				<div class="company">Neux Comunicação</div>
+    				<div class="date">
+    				  <span class="startDate">August 2006</span> 
+    					<span class="endDate">- January 2007</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://neux.com.br/">http://neux.com.br/</a>
+        	</span>      	<div class="item" id="work-item">
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-6" type="checkbox" class="toggle-item" />
+            <label for="work-item-6"></label>
+    
+    			<header>
+    				<div class="position">Fullstack Developer</div>
+    				<div class="company">Freelancer</div>
+    				<div class="date">
+    				  <span class="startDate">January 2006</span> 
+    					<span class="endDate">- January 2017</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://github.com/persocon">http://github.com/persocon</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Fullstack developer</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>MangoCorp projects</p></li>
+                <li><p>C-Heads Magazine projects</p></li>
+                <li><p>Cursillo.at website</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Highschool
+              </div>
+              <div class="institution">
+                EEPSG Professor Flaminio Lessa
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2001
+              </span>
+              <span class="endDate">
+              - 2004
+              </span>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            Portuguese
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency fluent">
+              <em>Fluent</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Photography
+          </h3>
+          <ul class="keywords">
+            <li>Analog Photography</li>
+            <li>Film</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Outdoor Life
+          </h3>
+          <ul class="keywords">
+            <li>Nature</li>
+            <li>Forest</li>
+          </ul>
+        </div>
+      </section>
+    </section>
 
-	<body>
-		<div id="resume">
-				<header id="header" class="clear">
-						<img class="picture" src="https://avatars2.githubusercontent.com/u/1276067?v&#x3D;3&amp;s&#x3D;460" alt="Pedro Barbosa Costa Neves"/>
-						<div class="middle">
-							<h1 class="name">Pedro Barbosa Costa Neves</h1>
-							<h2 class="label"></h2>
-						</div>
-
-						<span class="location">
-								<span class="city">
-									São Paulo,
-								</span>
-								<span class="countryCode">
-									BR
-								</span>
-						</span>
-                    
-					<div id="contact">
-						<div class="website">
-              <span class="fa fa-external-link"></span>
-							<a target="_blank" href="http://github.com/persocon">http://github.com/persocon</a>
-						</div>
-						<div class="email">
-              <span class="fa fa-envelope-o"></span>
-							<a href="mailto:costa.neves@me.com">costa.neves@me.com</a>
-						</div>
-						<div class="phone">
-              <span class="fa fa-mobile"></span>
-							+5511 97466 1440
-						</div>
-					</div>
-
-					<div id="profiles">
-						<div class="item">
-								<div class="username">
-									<span class="fa fa-github github social"></span>
-									<span class="url">
-										<a href="http://github.com/persocon">persocon</a>
-									</span>
-								</div>
-						</div>
-						<div class="item">
-								<div class="username">
-									<span class="fa fa-linkedin linkedin social"></span>
-									<span class="url">
-										<a href="https://br.linkedin.com/in/persocon">persocon</a>
-									</span>
-								</div>
-						</div>
-						<div class="item">
-								<div class="username">
-									<span class="fa fa-skype skype social"></span>
-										<span>neoatpersocon</span>
-								</div>
-						</div>
-					</div>
-				</header>
-
-					<section class="section main-summary">
-						<section>
-							<div><p>Web developer since 2006, I'm into clean code and responsive designs. I'm a fast learner, curious. A passion? Photography. Analog photography.<br />My latest job I was working as a frontend developer for R7. R7 is a large Brazilian content web site. This project is developing a software platform to attend the present and future needs of the company, by automating several processes that are now manual and offering base abstractions to enable e new kinds of media and interactive services.<br />The project called for a highly distribute architecture, relying on a refined caching infrastructure and seizing the benefit of asynchronous processing whenever possible. It is developed in Ruby on Rails, Javascript also playing important roles.</p></div>
-						</section>
-					</section>
-
-				<section class="section margin1">
-					<header>
-						<h2 class='section-title'>Skills</h2>
-					</header>
-					<section id="skills">
-						<div class="item">
-							<h3 class="name">
-								Javascript
-							</h3>
-							<div class="level master">
-								<em>Master</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>Vanilla Javascript</li>
-								<li>ES6</li>
-								<li>ES 2015</li>
-								<li>JSON</li>
-								<li>ReactJS</li>
-								<li>Redux</li>
-								<li>Redux-Saga</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								HTML
-							</h3>
-							<div class="level master">
-								<em>Master</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>HTML</li>
-								<li>HTML 5</li>
-								<li>HTML API</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								CSS
-							</h3>
-							<div class="level master">
-								<em>Master</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>pure css</li>
-								<li>sass</li>
-								<li>scss</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								WordPress
-							</h3>
-							<div class="level advanced">
-								<em>Advanced</em>
-								<div class="bar"></div>
-							</div>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								Ruby
-							</h3>
-							<div class="level intermediate">
-								<em>Intermediate</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>Ruby on Rails</li>
-								<li>PadrinoRB</li>
-								<li>Sinatra</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								PHP
-							</h3>
-							<div class="level intermediate">
-								<em>Intermediate</em>
-								<div class="bar"></div>
-							</div>
-						</div>
-					</section>
-				</section>
-
-				<section class="section">
-					<header>
-						<h2 class='section-title'>Work Experience <span class="item-count">(6)</span></h2>
-					</header>
-					<section id="work">
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-down"></span>
-									</span>
-									<div class="position">
-										Front-end Developer
-									</div>
-									<div class="company">
-										R7
-									</div>
-									<div class="date">
-										<span class="startDate">
-											September 2013
-										</span>
-										<span class="endDate">
-											- March 2015
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://r7.com">http://r7.com</a>
-                                </span>
-
-
-								<div class="item display" style="opacity:1">
-									<ul class="highlights">
-											<li>R7 Mobile Website</li>
-											<li>R7 Content Management System</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Fron-end Developer
-									</div>
-									<div class="company">
-										RealNetworks INC / GameHouse
-									</div>
-									<div class="date">
-										<span class="startDate">
-											January 2013
-										</span>
-										<span class="endDate">
-											- August 2013
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://gamehouse.com">http://gamehouse.com</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<ul class="highlights">
-											<li>Project RACOON</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Fullstack Developer
-									</div>
-									<div class="company">
-										Coworkers
-									</div>
-									<div class="date">
-										<span class="startDate">
-											May 2012
-										</span>
-										<span class="endDate">
-											- August 2013
-										</span>
-									</div>
-								</header>
-
-
-
-								<div class="item display none" style="opacity:0">
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Fullstack Developer
-									</div>
-									<div class="company">
-										Projetual Comunicação
-									</div>
-									<div class="date">
-										<span class="startDate">
-											June 2010
-										</span>
-										<span class="endDate">
-											- April 2011
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://projetual.com.br">http://projetual.com.br</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Fullstack Developer
-									</div>
-									<div class="company">
-										Neux Comunicação
-									</div>
-									<div class="date">
-										<span class="startDate">
-											August 2006
-										</span>
-										<span class="endDate">
-											- January 2007
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://neux.com.br/">http://neux.com.br/</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Fullstack Developer
-									</div>
-									<div class="company">
-										Freelancer
-									</div>
-									<div class="date">
-										<span class="startDate">
-											January 2006
-										</span>
-										<span class="endDate">
-											- Current
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://github.com/persocon">http://github.com/persocon</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>Fullstack developer</p></p>
-									</div>
-									<ul class="highlights">
-											<li>MangoCorp projects</li>
-											<li>C-Heads Magazine projects</li>
-											<li>Cursillo.at website</li>
-									</ul>
-							</div>
-					</section>
-				</section>
-
-
-				<section class="section">
-					<header>
-						<h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
-					</header>
-					<section id="education">
-							<header class="clear">
-								<span class="space-left">
-										<span class="fa fa-caret-down"></span>
-								</span>
-								<div class="header-left">
-										<div class="studyType">
-											Highschool
-										</div>
-										<div class="institution">
-											EEPSG Professor Flaminio Lessa
-										</div>
-								</div>
-								<div class="date">
-									<span class="startDate">
-										2001
-									</span>
-									<span class="endDate">
-										- 2004
-									</span>
-								</div>
-							</header>
-
-
-
-								<div class="item display" style="opacity:1">
-							</div>
-					</section>
-				</section>
-
-
-
-				<section class="section margin1">
-					<header>
-						<h2 class='section-title'>Languages</h2>
-					</header>
-					<section id="languages">
-							<div class="display">
-										<h3 class="language">
-											Portuguese
-										</h3>
-								<div class="item">
-										<div class="level fluency native speaker">
-											<em>Native speaker</em>
-											<div class="bar"></div>
-										</div>
-								</div>
-							</div>
-							<div class="display">
-										<h3 class="language">
-											English
-										</h3>
-								<div class="item">
-										<div class="level fluency fluent">
-											<em>Fluent</em>
-											<div class="bar"></div>
-										</div>
-								</div>
-							</div>
-					</section>
-				</section>
-
-				<section class="section margin1">
-					<header>
-						<h2 class='section-title' class='section-title'>Interests</h2>
-					</header>
-					<section id="interests">
-							<div class="item">
-									<h3 class="name">
-										Photography
-									</h3>
-									<ul class="keywords">
-											<li>Analog Photography</li>
-											<li>Film</li>
-									</ul>
-							</div>
-							<div class="item">
-									<h3 class="name">
-										Outdoor Life
-									</h3>
-									<ul class="keywords">
-											<li>Nature</li>
-											<li>Forest</li>
-									</ul>
-							</div>
-					</section>
-				</section>
-
-		</div>
-		<script>
-			(function(){
-				var elements = document.querySelector("#resume");
-
-				// adding the element to the all container
-				// and using event delegation
-				elements.addEventListener("click", function(e) {
-					var current = e.target;
-					// font awesone arrows
-					var arrowRight = current.classList.contains('fa-caret-right');
-					var arrowDown = current.classList.contains('fa-caret-down');
-
-					if(current && current.nodeName == "SPAN" && (arrowRight || arrowDown)) {
-						var header = e.target.parentNode.parentNode;
-						var item = header.nextSibling;
-
-						// select the .item element from the siblings
-						while (!item || !item.classList || !item.classList.contains('item')) {
-							item = item.nextSibling;
-						}
-
-						// hide or show the .item element
-						item.classList.toggle('none');
-
-						// if the .item is going to be shown then imcrease is opacity
-						// every 20 milliseconds to make a fadeIn effect
-						if (!item.classList.contains('none')) {
-							var id = setInterval(function() {
-								item.style.opacity = parseFloat(item.style.opacity) + 0.09;
-								if (parseFloat(item.style.opacity) >= 1) {
-									clearInterval(id);
-								}
-							}, 20);
-						} else {
-							item.style.opacity = 0;
-						}
-
-						current.classList.toggle('fa-caret-right');
-						current.classList.toggle('fa-caret-down');
-					}
-
-				}, false);
-
-				// Make the #resume visible only when the DOM is fully loaded
-				elements.style.opacity = '1';
-			})();
-		</script>
-	</body>
-
+  </body>
 </html>
