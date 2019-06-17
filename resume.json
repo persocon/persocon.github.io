@@ -4,14 +4,14 @@
     "label": "",
     "picture": "https://avatars2.githubusercontent.com/u/1276067?v=3&s=460",
     "email": "costa.neves@me.com",
-    "phone": "+5511 97466 1440",
+    "phone": "+49 17 666190769",
     "website": "http://github.com/persocon",
     "summary": "Web developer since 2006, I'm into clean code and responsive designs. I'm a fast learner, curious. A passion? Photography. Analog photography.<br />My latest job I was working as a frontend developer for R7. R7 is a large Brazilian content web site. This project is developing a software platform to attend the present and future needs of the company, by automating several processes that are now manual and offering base abstractions to enable e new kinds of media and interactive services.<br />The project called for a highly distribute architecture, relying on a refined caching infrastructure and seizing the benefit of asynchronous processing whenever possible. It is developed in Ruby on Rails, Javascript also playing important roles.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "São Paulo",
-      "countryCode": "BR",
+      "city": "Berlin",
+      "countryCode": "DE",
       "region": ""
     },
     "profiles": [
@@ -34,11 +34,23 @@
   },
   "work": [
     {
+      "company": "PiNCAMP",
+      "position": "Senior Software Developer",
+      "website": "https://pincamp.de",
+      "startDate": "2018-03-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Front-end Architecture",
+        "Tooling"
+      ]
+    },
+    {
       "company": "i2x GmbH",
       "position": "Software Developer",
       "website": "http://i2x.ai",
       "startDate": "2017-05-15",
-      "endDate": "",
+      "endDate": "2018-02-01",
       "summary": "",
       "highlights": [
         "Desktop App",
@@ -109,7 +121,19 @@
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [{
+    "organization": "Safelight Berlin",
+    "position": "Volunteer",
+    "website": "https://safelightberlin.com/",
+    "startDate": "2019-06-15",
+    "endDate": "",
+    "summary": "Film Developing, Scanning and Printing Advisor",
+    "highlights": [
+      "Film Scanning specialist",
+      "Film Developer",
+      "Darkroom Print"
+    ]
+  }],
   "education": [
     {
       "institution": "EEPSG Professor Flaminio Lessa",
@@ -134,7 +158,10 @@
         "JSON",
         "ReactJS",
         "Redux",
-        "Redux-Saga"
+        "Redux-Saga",
+        "Webpack",
+        "Parcel",
+        "CSS-in-JS"
       ]
     },
     {
@@ -191,13 +218,6 @@
       "keywords": [
         "Analog Photography",
         "Film"
-      ]
-    },
-    {
-      "name": "Outdoor Life",
-      "keywords": [
-        "Nature",
-        "Forest"
       ]
     }
   ],
